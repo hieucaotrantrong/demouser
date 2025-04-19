@@ -1,0 +1,218 @@
+/* Đặt kích thước của container chính */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Form đăng nhập */
+.login-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+/* Tiêu đề form */
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Các trường nhập liệu */
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.switch-text {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #333;
+}
+
+.switch-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.switch-link:hover {
+    color: #0056b3;
+}
+
+/* Hiệu ứng khi trường nhập liệu được chọn */
+.input-field:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Nút submit */
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hiệu ứng hover */
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Hiệu ứng khi nhấn vào nút */
+.submit-button:active {
+    background-color: #00408f;
+}
+
+/*  */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eef1f5;
+}
+
+.register-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+.register-form h2 {
+    margin-bottom: 24px;
+    font-size: 26px;
+    color: #333;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.input-field:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.submit-button:active {
+    background-color: #003d80;
+}
+
+.switch-text {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #333;
+}
+
+.switch-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.switch-link:hover {
+    color: #0056b3;
+}
+
+/*  */
+.userlist-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.userlist-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.userlist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.userlist-item {
+    margin-bottom: 12px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.userlist-item:hover {
+    background: #f9f9f9;
+}
+
+.userlist-link {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.userlist-link:hover {
+    color: #0056b3;
+}
+
+.logout-button {
+    background-color: #f44336;
+    /* Màu đỏ cho nút logout */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f;
+    /* Đổi màu khi hover */
+}
