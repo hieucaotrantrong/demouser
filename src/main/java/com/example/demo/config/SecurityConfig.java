@@ -14,11 +14,11 @@ public class SecurityConfig {
         http
                 .csrf().disable()
                 .authorizeHttpRequests()
-                .requestMatchers("/api/users/**", "/h2-console/**").permitAll() // Cho phép truy cập H2 Console
+                .requestMatchers("/api/users/**", "/h2-console/**").permitAll()
                 .requestMatchers("/**").permitAll()
                 .and()
                 .formLogin().disable()
-                .headers().frameOptions().disable(); // Cho phép H2 Console hiển thị trong iframe
+                .headers().frameOptions().disable();
         return http.build();
     }
 }
